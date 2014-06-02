@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'space2dot'
+
+result  = Space2dot.convert(ARGV)
+command = Space2dot.copy_command(result)
+puts result; system(command)
