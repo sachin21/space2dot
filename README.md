@@ -1,6 +1,6 @@
 # Space2dot
-
-TODO: Write a gem description
+## What
+Convert to underscore the space
 
 ## Installation
 
@@ -16,14 +16,27 @@ Or install it yourself as:
 
     $ gem install space2dot
 
-## Usage
+If your computer is linux
 
-TODO: Write usage instructions here
+    $ sudo apt-get install xclip
+
+You need alias
+
+    $ alias pbcopy='xclip -selection clipboard'
+  
+    $ alias pbpaste='xclip -selection clipboard -o'
+
+## How to use
+
+From the terminal:
+
+    $ space2dot target sentence
+    => .target.sentence  # copied to the clipboard
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/space2dot/fork )
+1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+5. Create new Pull Request
