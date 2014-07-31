@@ -23,10 +23,10 @@ If your computer is linux
 You need alias
 
     $ alias pbcopy='xclip -selection clipboard'
-  
+
     $ alias pbpaste='xclip -selection clipboard -o'
 
-## How to use
+## Usage
 
 From the terminal:
 
