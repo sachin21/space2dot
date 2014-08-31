@@ -16,15 +16,17 @@ Or install it yourself as:
 
     $ gem install space2dot
 
-If your computer is linux
+If your computer is Ubuntu
 
-    $ sudo apt-get install xclip
+    $ sudo apt-get install xsel
 
-You need alias
+If your computer is CentOS
 
-    $ alias pbcopy='xclip -selection clipboard'
+    $ sudo yum -y install xsel
 
-    $ alias pbpaste='xclip -selection clipboard -o'
+You need to alias
+
+    $ alias pbcopy='xsel --clipboard --input'
 
 ## Usage
 
@@ -40,3 +42,4 @@ From the terminal:
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
