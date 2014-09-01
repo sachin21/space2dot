@@ -1,6 +1,6 @@
 # Space2dot
 ## What
-Convert to underscore the space
+Change the space into dot.
 
 ## Installation
 
