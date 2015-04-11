@@ -3,5 +3,5 @@
 require 'space2dot'
 
 result  = Space2dot.convert(ARGV)
-command = Space2dot.copy_command(result)
+command = Space2dot.generate_command(result)
 puts result; system(command)
