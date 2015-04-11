@@ -7,6 +7,6 @@ describe Space2dot do
   end
 
   it 'Successful copied' do
-    expect(Space2dot.copy_command('.fuga.hoge.foo')).to eq("echo .fuga.hoge.foo | ruby -pe 'chomp' | pbcopy")
+    expect(Space2dot.generate_command('.fuga.hoge.foo')).to eq("echo .fuga.hoge.foo | ruby -pe 'chomp' | pbcopy")
   end
 end
