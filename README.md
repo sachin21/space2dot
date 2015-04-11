@@ -24,10 +24,6 @@ If your computer is CentOS
 
     $ sudo yum -y install xsel
 
-You need to alias
-
-    $ alias pbcopy='xsel --clipboard --input'
-
 ## Usage
 
 From the terminal:
@@ -42,4 +38,3 @@ From the terminal:
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
