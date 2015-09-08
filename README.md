@@ -11,13 +11,8 @@ Install it yourself as:
 
 From the terminal:
 
-    $ space2dot new branch -c
-    =>  Switched to the new branch 'new_branch’
-    =>  Branch has been created.
-
-Or
-
-    $ git branch -m $(space2dot renamed branch) # Output to the standard output
+    $ space2dot style sheet
+    => .style.sheet # Output to the standard output
 
 ## Contributing
 
