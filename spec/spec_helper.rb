@@ -1,2 +1,10 @@
-$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+require 'bundler/setup'
 require 'space2dot'
+Bundler.setup
+
+RSpec.configure do |config|
+  config.order = 'random'
+  config.expect_with :rspec do |rspec|
+    rspec.syntax = :expect
+  end
+end
