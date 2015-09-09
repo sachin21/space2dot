@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
-
 require 'space2dot'
 
-result  = Space2dot.convert(ARGV)
-command = Space2dot.generate_command(result)
-puts result; system(command)
+result = Space2dot.convert(ARGV)
+
+print result

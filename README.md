@@ -1,35 +1,18 @@
 # Space2dot
-## What
+## What is space2dot
 Change the space into dot.
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'space2dot'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it yourself as:
 
     $ gem install space2dot
-
-If your computer is Ubuntu then
-
-    $ sudo apt-get install xsel
-
-If your computer is CentOS then
-
-    $ sudo yum -y install xsel
 
 ## Usage
 
 From the terminal:
 
-    $ space2dot target sentence
-    => .target.sentence  # copied to the clipboard
+    $ space2dot style sheet
+    => .style.sheet # Output to the standard output
 
 ## Contributing
 
