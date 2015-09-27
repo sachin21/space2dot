@@ -1,4 +1,4 @@
-# Space2dot
+# Space2dot [![Build Status](https://travis-ci.org/sachin21/space2dot.svg?branch=master)](https://travis-ci.org/sachin21/space2dot)
 ## What is space2dot
 Change the space into dot.
 
