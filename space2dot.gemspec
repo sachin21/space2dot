@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Space2dot::VERSION
   spec.authors       = ['sachin21']
   spec.email         = ['sachin21.developer@gmail.com']
-  spec.description   = 'change the space into dot'
-  spec.summary       = 'change the space into dot'
+  spec.description   = 'Change the space into dot'
+  spec.summary       = 'Change the space into dot'
   spec.homepage      = 'http://github.com/sachin21/space2dot'
   spec.license       = 'MIT'
 
