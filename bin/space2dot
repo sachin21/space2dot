@@ -3,4 +3,4 @@ require 'space2dot'
 
 result = Space2dot.convert(ARGV)
 
-print result
+puts result
