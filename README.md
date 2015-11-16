@@ -21,13 +21,13 @@ From the command line:
 In the case of OS X.
 
 ```
-$ space2dot new class name | pbcopy
+$ space2dot class name | pbcopy
 ```
 
 In the case of Linux.
 
 ```
-$ space2dot new class name | xsel --input --clipboard
+$ space2dot class name | xsel --input --clipboard
 ```
 
 ## Shorthand
