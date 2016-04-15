@@ -2,5 +2,5 @@
 
 # This module holds the Space2underscore version information.
 module Space2dot
-  VERSION = '0.1.2'
+  VERSION = '0.1.3'
 end
