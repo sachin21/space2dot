@@ -1,1 +1,8 @@
-space2dot
+#!/usr/bin/env ruby
+# coding: utf-8
+
+require 'space2dot'
+
+result = Space2dot.convert(ARGV)
+
+puts result
