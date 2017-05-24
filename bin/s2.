@@ -3,6 +3,5 @@
 
 require 'space2dot'
 
-result = Space2dot.convert(ARGV)
-
-puts result
+status = Space2dot::Cli.new(ARGV).start
+exit status

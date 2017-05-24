@@ -1,14 +1,12 @@
 # coding: utf-8
 
-require 'space2dot/version'
+require 'singleton'
 
 # This is the main functions.
 module Space2dot
-  def self.convert(argv)
-    if argv.length == 1
-      argv[0].strip.gsub(/\s/, '.').insert(0, '.')
-    else
-      argv.join('.')
-    end.insert(0, '.')
-  end
 end
+
+require 'space2dot/version'
+require 'space2dot/dot'
+require 'space2dot/usage'
+require 'space2dot/cli'
